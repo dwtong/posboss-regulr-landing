@@ -1,7 +1,9 @@
 ---
 ---
-.padded {
-  margin: 1rem 0;
-  padding: 8rem 7rem;
-  background: lightgray;
-}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+@import "vendor/bootstrap";
+@import "vendor/entypo";
+@import "vendor/theme";
+
+#section-footer { @import "footer"; }
