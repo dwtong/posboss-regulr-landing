@@ -1,15 +1,16 @@
 ---
 ---
 
+@import "variables";
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
 @import "vendor/bootstrap";
 @import "vendor/entypo";
 @import "vendor/theme";
 @import "vendor/animate";
 @import "vendor/morphext";
-@import "variables";
 
 #section-hero { @import "hero"; }
+#section-features { @import "features"; }
 #section-for-business { @import "for-business"; }
 #section-footer { @import "footer"; }
 

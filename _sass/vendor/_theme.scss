@@ -85,8 +85,7 @@ body {
 }
 .icon-themed {
   display: inline-block;
-  background-image: none;
-  // background-image: linear-gradient(to bottom right, #5534ff 0%, #0c7aee 48%, #69ffab 100%);
+  background-color: $icon-background;
   background-size: cover;
   -webkit-background-clip: text;
           background-clip: text;

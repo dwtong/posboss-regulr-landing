@@ -1,0 +1,11 @@
+.content-feature-sub {
+  // margin: 2rem 0;
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 2rem 0;
+
+  &:hover {
+    background-color: rgba(244, 66, 54, 0.2);
+    cursor: pointer;
+  }
+}
