@@ -4,7 +4,7 @@ h1 {
 }
 
 &.main-hero {
-  background-image: linear-gradient(to bottom right, $regulr-green 0%, $regulr-blue 100%);
+  background-image: none;
 }
 
 .main-hero-bg {
@@ -15,10 +15,23 @@ h1 {
   min-height: 540px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: black;
-
-  &:hover {
-    color: white;
-  }
+.cta {
+  margin-top: 9rem;
 }
+
+.cta-button-group {
+  // margin-top: 7rem !important;
+}
+
+.navbar {
+  height: 60px;
+  background-color: $regulr-red!important;
+}
+
+// .navbar-dark .navbar-nav .nav-link {
+//   color: black;
+
+//   &:hover {
+//     color: white;
+//   }
+// }
