@@ -6,4 +6,9 @@
 @import "vendor/entypo";
 @import "vendor/theme";
 
+#section-for-business { @import "for-business"; }
 #section-footer { @import "footer"; }
+
+.btn {
+  cursor: pointer;
+}
