@@ -1,3 +1,7 @@
 .btn {
   margin-top: 1rem;
 }
+
+&.block-footer-themed {
+  background-image: linear-gradient(to bottom right, $regulr-purple 0%, $regulr-blue 48%, $regulr-green 100%);
+}
