@@ -1,0 +1,39 @@
+h1, h2, h3, h4, h5 {
+  color: black;
+  margin: 2rem 0;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 2rem 0;
+}
+
+.benefit-img {
+  height: 450px;
+}
+
+.btn {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: white;
+
+  &:hover {
+    background-color: lightgray;
+    border-color: lightgray;
+  }
+}
+
+.benefit-1 {
+  background-color: $regulr-blue;
+}
+
+.benefit-2 {
+  background-color: $regulr-green;
+}
+
+.benefit-3 {
+  background-color: $regulr-purple;
+}
+
+.benefit-4 {
+  background-color: $regulr-yellow;
+}
