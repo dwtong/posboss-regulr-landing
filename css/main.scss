@@ -5,7 +5,9 @@
 @import "vendor/bootstrap";
 @import "vendor/entypo";
 @import "vendor/theme";
+@import "variables";
 
+#section-hero { @import "hero"; }
 #section-for-business { @import "for-business"; }
 #section-footer { @import "footer"; }
 
