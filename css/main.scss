@@ -9,6 +9,20 @@
 @import "vendor/animate";
 @import "vendor/morphext";
 
+.policy-container {
+  margin: 20px auto;
+  max-width: 850px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+  padding: 0 10px;
+
+  h1, h2, h3 {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+}
+
 #section-hero { @import "hero"; }
 #section-features { @import "features"; }
 #section-benefits { @import "benefits"; }
